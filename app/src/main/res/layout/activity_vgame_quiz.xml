@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.vgamequiz.VGameQuiz">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 1 :"
+            android:textSize="20sp"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="En quelle année est sortie la PS1 et la PS2 ?\n(2 réponses)"
+            android:textSize="20sp"
+            android:paddingBottom="16dp" />
+
+        <CheckBox
+            android:id="@+id/checkbox1990"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:text="1990"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox1994"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:text="1994"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox2000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:text="2000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 2 :"
+            android:textSize="20sp"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quels jeux sont sortie sur PS2 ?\n(2 réponses)"
+            android:textSize="20sp"
+            android:paddingBottom="16dp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_RC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:text="Ratchet et Clank"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_GOW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:text="God of War"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_MK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:text="Mario Kart"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 3 :"
+            android:textSize="20sp"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quel est le jeu vidéo le plus vendu au monde ?"
+            android:textSize="20sp"
+            android:paddingBottom="16dp" />
+
+        <RadioGroup
+            android:id="@+id/Radio_group_console"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/tetris"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Tetris"
+                android:textSize="20sp"
+                android:checked="false"/>
+
+            <RadioButton
+                android:id="@+id/mario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Mario Kart"
+                android:textSize="20sp"
+                android:checked="false"/>
+
+            <RadioButton
+                android:id="@+id/final_fantasy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Final fantasy VI"
+                android:textSize="20sp"
+                android:paddingBottom="16dp"
+                android:checked="false"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 4 :"
+            android:textSize="20sp"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quelle société a créé Final fantasy?"
+            android:textSize="20sp"
+            android:paddingBottom="16dp" />
+
+        <EditText
+            android:id="@+id/edit_text_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="écrit ici"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 5 :"
+            android:textSize="20sp"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quel est le plus grand salon du jeux video ?"
+            android:textSize="20sp"
+            android:paddingBottom="16dp" />
+
+        <RadioGroup
+            android:id="@+id/Radio_group_JV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/E3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="E3"
+                android:textSize="20sp"
+                android:checked="false"/>
+
+            <RadioButton
+                android:id="@+id/Gamescom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Gamescom"
+                android:textSize="20sp"
+                android:checked="false"/>
+
+            <RadioButton
+                android:id="@+id/PGW"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Paris Games Week"
+                android:textSize="20sp"
+                android:paddingBottom="16dp"
+                android:checked="false"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 6 :"
+            android:textSize="20sp"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quel jeu vidéo gratuit a beaucoup fait parler de lui en 2017?"
+            android:textSize="20sp"
+            android:paddingBottom="16dp" />
+
+        <EditText
+            android:id="@+id/edit_text_fortnite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="écrit ici"
+            android:inputType="text"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 7 :"
+            android:textSize="20sp"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="comme s'appelle l'héroine du jeu TOMB RAIDER"
+            android:textSize="20sp"
+            android:paddingBottom="16dp" />
+
+        <RadioGroup
+            android:id="@+id/Radio_group_TR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/hannah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Hannah"
+                android:textSize="20sp"
+                android:checked="false"/>
+
+            <RadioButton
+                android:id="@+id/Laura"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Laura"
+                android:textSize="20sp"
+                android:checked="false"/>
+
+            <RadioButton
+                android:id="@+id/lara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Lara"
+                android:textSize="20sp"
+                android:paddingBottom="16dp"
+                android:checked="false"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/score_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="verify"
+            android:text="Score"
+            android:textSize="16sp"
+            android:paddingTop="16dp"
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+</ScrollView >
